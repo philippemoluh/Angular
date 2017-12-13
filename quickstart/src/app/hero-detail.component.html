@@ -1,0 +1,32 @@
+<div *ngIf="hero" >
+      
+      <table>
+            <tr>
+                  <td>Name: </td>
+                  <td><input [(ngModel)]="hero.name" placeholder="name"/></td>
+            </tr>
+            <tr>
+                  <td>id: </td>
+                  <td><input [(ngModel)]="hero.id" placeholder="name"/></td>
+            </tr>
+            <tr>
+                  <td>Address: </td>
+                  <td><input [(ngModel)]="hero.address" placeholder="name"/></td>
+            </tr>
+            <tr>
+                  <td>Summe: </td>
+                  <td><input [(ngModel)]="hero.summe" placeholder="name"/></td>
+            </tr>
+            <tr>
+                  <td>Reception: </td>
+                  <td><input [(ngModel)]="hero.reception" placeholder="name"/></td>
+            </tr>
+            <tr>
+                  <td>Status: </td>
+                  <td><input [(ngModel)]="hero.status" placeholder="name"/></td>
+            </tr>
+      </table>
+      <button (click)="goBack()">Back</button>
+
+
+</div>
